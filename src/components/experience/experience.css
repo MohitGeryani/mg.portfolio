@@ -1,0 +1,127 @@
+/* Apply box-sizing globally */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.experience_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.experience_container > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 3rem;  /* Reduced right-left padding */
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    overflow: hidden; /* Prevent content overflow */
+}
+
+.experience_container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.experience_container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.experience_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+
+.experience_details {
+    display: flex;
+    
+    gap: 1rem;
+}
+ 
+
+.experience_details-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+/* Media Queries */
+
+/* For medium devices like tablets */
+@media screen and (max-width: 1024px) {
+    .experience_container {
+        grid-template-columns: 1fr;
+    }
+
+    .experience_container > div {
+        width: 90%;  /* Adjusted width */
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .experience_content {
+        padding: 1rem;
+    }
+}
+
+
+/* For small devices like mobiles */
+@media screen and (max-width: 600px) {
+
+    #experience {
+        margin-top: 20rem;
+    }
+    /* Ensure the small text comes below the h4 */
+    .experience_details {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align text to the start */
+        gap: 0.2rem; /* Small gap between h4 and small text */
+    }
+
+    .experience_details-icon {
+        margin-top: 0; /* Remove any margin that might affect the layout */
+    }
+
+    .experience_details h4 {
+        margin: 0;
+        margin-bottom: 0.5rem; /* Add some space between h4 and the small text */
+    }
+
+    .experience_details small {
+        margin-top: -0.5rem; /* Adjust the space above the small text */
+    }
+}
+
+@media screen and (max-width: 370px) {
+
+        #experience {
+            margin-top: 35rem;
+        }
+    /* Ensure the small text comes below the h4 */
+    .experience_details {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align text to the start */
+        gap: 0.2rem; /* Small gap between h4 and small text */
+    }
+
+    .experience_details-icon {
+        margin-top: 0; /* Remove any margin that might affect the layout */
+    }
+
+    .experience_details h4 {
+        margin: 0;
+        margin-bottom: 0.5rem; /* Add some space between h4 and the small text */
+    }
+
+    .experience_details small {
+        margin-top: -0.5rem; /* Adjust the space above the small text */
+    }
+}
