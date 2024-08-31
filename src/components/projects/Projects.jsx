@@ -42,6 +42,7 @@ const Projects = () => {
             <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
             </div>
         </article>
+        
     </div>
 
     </section>
