@@ -15,20 +15,20 @@ const Projects = () => {
         <div className="project-image">
         <img src={IMG1} alt="" />
         </div>
-            <h3>This is a Project title</h3>
+            <h3>MG's Cart: A Fullstack Ecommerce WebApp</h3>
             <div className="project_item-cta">
-            <a href="https://github.com" className='btn '>View Project</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://mgscartapp.onrender.com/" className='btn '>View Project</a>
+            <a href="https://mgscartapp.onrender.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
         </div>
         </article>
         <article className='project_item'>
         <div className="project-image">
         <img src={IMG2} alt="" />
         </div>
-            <h3>This is a Project title</h3>
+            <h3>SocioBook: A Fullstack Social Media Application</h3>
             <div className="project_item-cta">
-            <a href="https://github.com" className='btn '>View Project</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://sociobook-app.onrender.com/" className='btn '>View Project</a>
+            <a href="https://sociobook-app.onrender.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
         
             </div>
         </article>
@@ -36,10 +36,10 @@ const Projects = () => {
         <div className="project-image">
         <img src={IMG3} alt="" />
         </div>
-            <h3>This is a Project title</h3>
+            <h3>Auth App: A Fullstack Authentication System </h3>
             <div className="project_item-cta">
-            <a href="https://github.com" className='btn '>View Project</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://my-auth-app-jtxy.onrender.com" className='btn '>View Project</a>
+            <a href="https://my-auth-app-jtxy.onrender.com" className='btn btn-primary' target='_blank'>Live Demo</a>
             </div>
         </article>
         
