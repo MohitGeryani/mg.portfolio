@@ -40,8 +40,8 @@ const About = () => {
 
       </div>
 
-      <p>I'm a B.Tech student passionate about full-stack development with expertise in the MERN stack. I specialize in building secure, user-friendly applications, demonstrated by my recent social media app project. My skills include C++, DSA, Python, and cloud technologies, supported by certifications in ServiceNow and Python. My internship at Celebal Technologies honed my React and Firebase skills. I’m eager to tackle new challenges and continuously enhance my expertise.</p>
-       <a href='#contact' className='btn btn-primary'>Let's Connect</a>
+      <p>B.Tech student with a strong focus on full-stack development, specializing in the MERN stack. I build secure, user-friendly applications, exemplified by my recent social media project. Proficient in C++, DSA, Python, and cloud technologies, with certifications in ServiceNow and Python. My internship at Celebal Technologies enhanced my React and Firebase skills. I’m driven to continuously learn and embrace new challenges.</p>
+             <a href='#contact' className='btn btn-primary'>Let's Connect</a>
     </div>
    </div>
    </section>
