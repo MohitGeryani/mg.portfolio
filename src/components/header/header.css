@@ -138,7 +138,7 @@ font-size: .9rem;
 @media screen and (max-width: 1440px) and (min-width: 1280px) {
     header {
         height: auto; /* Allow the content to determine the height */
-        padding-bottom: 5rem; /* Increase bottom padding to prevent cutting */
+        padding-bottom: 2rem; /* Increase bottom padding to prevent cutting */
         overflow: visible; /* Ensure nothing is hidden */
     }
 
