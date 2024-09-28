@@ -119,7 +119,6 @@ font-size: .9rem;
         width: 20rem;
         left: 50%;
         transform: translateX(-50%) ;
-        margin-top: 2rem;
     }
     
     .me img {
@@ -132,18 +131,19 @@ font-size: .9rem;
   
    
   
-  }
+  
+}
 
-  /* Target MacBook Air (13-inch) and MacBook Pro (13-inch) */
+/* Target 13-inch MacBook Air (1440px wide) and MacBook Pro (1280px wide) */
 @media screen and (max-width: 1440px) and (min-width: 1280px) {
     header {
-        height: auto; /* Let the content determine height */
-        padding-bottom: 6rem; /* Add extra space at the bottom */
+        height: auto; /* Allow the content to determine the height */
+        padding-bottom: 5rem; /* Increase bottom padding to prevent cutting */
+        overflow: visible; /* Ensure nothing is hidden */
     }
 
     .me {
-        margin-top: 3rem; /* Adjust margin-top if needed */
-        /* Optional: Adjust size */
+        margin-top: 4rem; /* Adjust top margin */
         width: 22rem;
         height: 22rem;
     }
@@ -154,15 +154,16 @@ font-size: .9rem;
     }
 }
 
-/* Target smaller MacBook Air models (like 11-inch) */
+/* Target older MacBook Air (11-inch, 1366px wide) */
 @media screen and (max-width: 1366px) {
     header {
-        height: auto; /* Ensure content isn't cut off */
-        padding-bottom: 6rem;
+        height: auto; /* Allow content to grow */
+        padding-bottom: 5rem;
+        overflow: visible; /* Ensure nothing gets hidden */
     }
 
     .me {
-        margin-top: 2.5rem;
+        margin-top: 3.5rem; /* Adjust the top margin for balance */
         width: 20rem;
         height: 20rem;
     }
@@ -172,3 +173,25 @@ font-size: .9rem;
         height: 18rem;
     }
 }
+
+/* General media query for even smaller screens (1024px and below) */
+@media screen and (max-width: 1024px) {
+    header {
+        height: auto; /* Ensure auto height */
+        padding-bottom: 5rem; /* Give enough space at the bottom */
+        overflow: visible;
+    }
+
+    .me {
+        margin-top: 3rem;
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .me img {
+        width: 16rem;
+        height: 16rem;
+    }
+}
+
+
