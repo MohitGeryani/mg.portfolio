@@ -137,7 +137,7 @@ font-size: .9rem;
 /* Target 13-inch MacBook Air (1440px wide) and MacBook Pro (1280px wide) */
 @media screen and (max-width: 1440px) and (min-width: 1280px) {
     header {
-        height: auto; /* Allow the content to determine the height */
+        height: 100vh; /* Allow the content to determine the height */
         padding-bottom: 2rem; /* Increase bottom padding to prevent cutting */
         overflow: visible; /* Ensure nothing is hidden */
     }
@@ -157,8 +157,8 @@ font-size: .9rem;
 /* Target older MacBook Air (11-inch, 1366px wide) */
 @media screen and (max-width: 1366px) {
     header {
-        height: auto; /* Allow content to grow */
-        padding-bottom: 5rem;
+        height: 100vh; /* Allow content to grow */
+        padding-bottom: 2rem;
         overflow: visible; /* Ensure nothing gets hidden */
     }
 
