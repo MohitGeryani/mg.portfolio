@@ -134,58 +134,41 @@ font-size: .9rem;
   
   }
 
-  /* Target 13-inch MacBook Air (1440px wide) and similar MacBook Pro models */
-@media screen and (max-width: 1440px) {
+  /* Target MacBook Air (13-inch) and MacBook Pro (13-inch) */
+@media screen and (max-width: 1440px) and (min-width: 1280px) {
+    header {
+        height: auto; /* Let the content determine height */
+        padding-bottom: 6rem; /* Add extra space at the bottom */
+    }
+
     .me {
-        width: 21rem;
-        height: 21rem;
-        margin-top: 3.5rem;
+        margin-top: 3rem; /* Adjust margin-top if needed */
+        /* Optional: Adjust size */
+        width: 22rem;
+        height: 22rem;
     }
 
     .me img {
-        width: 19rem;
-        height: 19rem;
+        width: 20rem;
+        height: 20rem;
     }
 }
 
-/* Target 11-inch MacBook Air (1366px wide) */
+/* Target smaller MacBook Air models (like 11-inch) */
 @media screen and (max-width: 1366px) {
+    header {
+        height: auto; /* Ensure content isn't cut off */
+        padding-bottom: 6rem;
+    }
+
     .me {
-        width: 20rem;
-        height: 20rem;
-        margin-top: 3rem;
-    }
-
-    .me img {
-        width: 18rem;
-        height: 18rem;
-    }
-}
-
-/* Target smaller devices like 13-inch MacBook Pro (1280px wide) */
-@media screen and (max-width: 1280px) {
-    .me {
-        width: 20rem;
-        height: 20rem;
-        margin-top: 3rem;
-    }
-
-    .me img {
-        width: 18rem;
-        height: 18rem;
-    }
-}
-
-/* Target smaller MacBook Air/Pro or screens less than 1024px wide */
-@media screen and (max-width: 1024px) {
-    .me {
-        width: 18rem;
-        height: 18rem;
         margin-top: 2.5rem;
+        width: 20rem;
+        height: 20rem;
     }
 
     .me img {
-        width: 16rem;
-        height: 16rem;
+        width: 18rem;
+        height: 18rem;
     }
 }
