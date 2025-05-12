@@ -38,26 +38,27 @@ const Testimonials = () => {
         </SwiperSlide>
 
         <SwiperSlide className="testimonial">
-          <div className="client_avatar">
-            <img src={Logo2} alt="Celebal Technologies" />
-          </div>
-          <h5 className="client_name">React Developer Intern – Celebal Technologies</h5>
-          <small className="client_review">
-            Built interactive dashboards and Full-Stack web applications using React.js and Firebase.
-            Enhanced skills in state management (Redux Toolkit), API integration, and Git version control.
-          </small>
-        </SwiperSlide>
+  <div className="client_avatar">
+    <img src={Logo2} alt="Celebal Technologies" />
+  </div>
+  <h5 className="client_name">React Developer Intern – Celebal Technologies</h5>
+  <small className="client_review">
+    Worked as a Full Stack React Developer, building dashboards and feature-rich apps.
+    Gained hands-on experience with React.js, Redux Toolkit, Firebase, and RESTful APIs.
+  </small>
+</SwiperSlide>
 
-        <SwiperSlide className="testimonial">
-          <div className="client_avatar">
-            <img src={Logo3} alt="Infosys" />
-          </div>
-          <h5 className="client_name">Intern – Infosys Springboard</h5>
-          <small className="client_review">
-            Completed hands-on training in software development fundamentals.
-            Gained experience in web technologies and project-based learning, focusing on full-stack concepts.
-          </small>
-        </SwiperSlide>
+<SwiperSlide className="testimonial">
+  <div className="client_avatar">
+    <img src={Logo3} alt="Infosys" />
+  </div>
+  <h5 className="client_name">Software Development Intern – Infosys Springboard</h5>
+  <small className="client_review">
+    Focused on full-stack development concepts through project-based training modules.
+    Gained practical exposure to web technologies, OOP, databases, and agile workflows.
+  </small>
+</SwiperSlide>
+
       </Swiper>
     </section>
   );
