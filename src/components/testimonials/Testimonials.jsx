@@ -25,7 +25,7 @@ const Testimonials = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}
       >
-        <SwiperSlide className="testimonial">
+        {/* <SwiperSlide className="testimonial">
           <div className="client_avatar">
             <img src={Logo1} alt="Cprime" />
           </div>
@@ -35,7 +35,19 @@ const Testimonials = () => {
             Contributed to client projects like CHN, SABIC, DIR, and CHS, focusing on workflow automation,
             frontend/backend customization, and HRSD implementations.
           </small>
-        </SwiperSlide>
+        </SwiperSlide> */}
+        <SwiperSlide className="testimonial">
+  <div className="client_avatar">
+    <img src={Logo1} alt="Cprime" />
+  </div>
+  <h5 className="client_name">Full Stack Developer – Cprime</h5>
+  <small className="client_review">
+    Worked at Cprime, a Goldman Sachs & Everstone company, as a Full Stack Developer.
+    Contributed to client-facing projects by utilzing my frontend and backend skills, focusing on building scalable features,
+    enhancing user interfaces, and implementing backend APIs to deliver robust business solutions.
+  </small>
+</SwiperSlide>
+
 
         <SwiperSlide className="testimonial">
   <div className="client_avatar">
